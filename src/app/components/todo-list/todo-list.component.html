@@ -1,0 +1,10 @@
+<h2>ToDo Liste</h2>
+<input [(ngModel)]="newTitle" placeholder="Neue Aufgabe" />
+<button (click)="addTodo()">Hinzufügen</button>
+
+<ul>
+  <li *ngFor="let todo of todos$ | async">
+    {{ todo.title }}
+    <button (click)="deleteTodo(todo.id!)">Löschen</button>
+  </li>
+</ul>
