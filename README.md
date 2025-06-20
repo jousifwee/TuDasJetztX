@@ -2,6 +2,15 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
 
+
+## Migration zu Angular20
+1. npm install -g @angular/cli@20
+2. npm install
+3. ng update @angular/core@20 @angular/cli@20
+4. GIT commit
+5. npm install firebase @angular/fire
+
+
 ## Development server
 
 To start a local development server, run:
