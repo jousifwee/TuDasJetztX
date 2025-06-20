@@ -2,6 +2,25 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
 
+## ionic build
+0. npm install @capacitor/core @capacitor/cli
+1. npx cap init tu-das-jetzt-x de.youssifwee.test.tudas
+2. npm install @capacitor/android
+3. npx cap add android
+4. ng build --base-href .
+5. capacitor.config.ts anpassen
+6. npx cap copy
+6. npx cap open android
+
+
+## Im fehlerfall
+ordner android löschen
+npx cap sync android
+npx cap add android
+
+
+### immer nach änderungen im Code
+npx cap sync android
 
 ## Migration zu Angular20
 1. npm install -g @angular/cli@20
