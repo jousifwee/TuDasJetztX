@@ -13,14 +13,16 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 6. npx cap open android
 
 
-## Im fehlerfall
+### Im fehlerfall
 ordner android löschen
 npx cap sync android
 npx cap add android
 
 
 ### immer nach änderungen im Code
+ng build --base-href .
 npx cap sync android
+npx cap open android
 
 ## Migration zu Angular20
 1. npm install -g @angular/cli@20
