@@ -8,6 +8,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 2. npm install
 3. ng update @angular/core@20 @angular/cli@20
 4. GIT commit
+5. npm install firebase @angular/fire
 
 
 ## Development server
