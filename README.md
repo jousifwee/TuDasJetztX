@@ -52,6 +52,60 @@ For end-to-end (e2e) testing, run:
 ng e2e
 ```
 
+
+
+# firebase konfiguration
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyD4PmFB6WBY2W2ADkVorrYDPyRVrfHMPlU",
+    authDomain: "tudasjetzt.firebaseapp.com",
+    projectId: "tudasjetzt",
+    storageBucket: "tudasjetzt.firebasestorage.app",
+    messagingSenderId: "836592562609",
+    appId: "1:836592562609:web:4a658677dc4a380994cd90",
+    measurementId: "G-RY20NK429F"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+
+## ODER
+npm install firebase
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyD4PmFB6WBY2W2ADkVorrYDPyRVrfHMPlU",
+  authDomain: "tudasjetzt.firebaseapp.com",
+  projectId: "tudasjetzt",
+  storageBucket: "tudasjetzt.firebasestorage.app",
+  messagingSenderId: "836592562609",
+  appId: "1:836592562609:web:4a658677dc4a380994cd90",
+  measurementId: "G-RY20NK429F"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
 ## Additional Resources
