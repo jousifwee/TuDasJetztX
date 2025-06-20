@@ -1,5 +1,5 @@
 {
-  "name": "tu-das-jetzt1",
+  "name": "tu-das-jetzt-x",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -18,6 +18,9 @@
     "@angular/platform-browser": "^20.0.4",
     "@angular/platform-browser-dynamic": "^20.0.4",
     "@angular/router": "^20.0.4",
+    "@capacitor/android": "^7.4.0",
+    "@capacitor/cli": "^7.4.0",
+    "@capacitor/core": "^7.4.0",
     "firebase": "^11.9.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

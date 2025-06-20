@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "TuDasJetzt1": {
+    "TuDasJetztX": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -39,7 +39,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/tu-das-jetzt1",
+            "outputPath": "dist/tu-das-jetzt-x",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -86,10 +86,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "TuDasJetzt1:build:production"
+              "buildTarget": "TuDasJetztX:build:production"
             },
             "development": {
-              "buildTarget": "TuDasJetzt1:build:development"
+              "buildTarget": "TuDasJetztX:build:development"
             }
           },
           "defaultConfiguration": "development"
